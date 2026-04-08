@@ -1,5 +1,5 @@
 FROM node:20
-WORKDIR APP
+WORKDIR /APP
 ADD ./package.json ./server.js .
 RUN npm install
 EXPOSE 3000
